@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace NeuronAI\LLM\Tests\Tokenizer;
+namespace NeuronAI\Tokenizer\Tests;
 
-use NeuronAI\LLM\Tokenizer\BPETokenizer;
+use NeuronAI\Tokenizer\BPETokenizer;
 use PHPUnit\Framework\TestCase;
 
 class BPETokenizerTest extends TestCase

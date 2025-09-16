@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace NeuronAI\LLM\Tokenizer;
+namespace NeuronAI\Tokenizer;
 
 interface TokenizerInterface
 {
