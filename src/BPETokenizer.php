@@ -119,9 +119,11 @@ class BPETokenizer implements TokenizerInterface
             $candidate = $mergeCandidates->extract();
             $pos = $candidate['pos'];
             $pair = $candidate['pair'];
-
             // Check if this merge position is still valid
-            if ($sizes[$pos] === 0 || $sizes[$pos + 1] === 0) {
+            if ($sizes[$pos] === 0) {
+                continue;
+            }
+            if ($sizes[$pos + 1] === 0) {
                 continue;
             }
 
