@@ -1,4 +1,4 @@
-# Performance-first Tokenizer implementation in PHP
+# High-Performance Tokenizer implementation in PHP
 
 ```
 composer require neuron-core/tokeinzer

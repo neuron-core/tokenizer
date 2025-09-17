@@ -1,6 +1,6 @@
 {
     "name": "neuron-core/tokenizer",
-    "description": "Performance-first Tokenizer implementation in PHP",
+    "description": "High-Performance Tokenizer implementation in PHP",
     "minimum-stability": "stable",
     "authors": [
         {
