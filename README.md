@@ -23,3 +23,8 @@ $tokens = $tokenizer->encode('Hello world!');
 
 var_dump($tokens);
 ```
+
+Here you can find the already trained GPT-2 datasets:
+
+- Vocabulary: https://huggingface.co/gpt2/resolve/main/vocab.json
+- Merges: https://huggingface.co/gpt2/resolve/main/merges.txt
