@@ -41,12 +41,12 @@
     },
     "autoload": {
         "psr-4": {
-            "NeuronAI\\Tokenizer\\": "src/"
+            "NeuronCore\\Tokenizer\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "NeuronAI\\Tokenizer\\Tests\\": "tests/"
+            "NeuronCore\\Tokenizer\\Tests\\": "tests/"
         }
     },
     "config": {

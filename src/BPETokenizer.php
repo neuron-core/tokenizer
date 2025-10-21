@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace NeuronAI\Tokenizer;
+namespace NeuronCore\Tokenizer;
 
 class BPETokenizer implements TokenizerInterface
 {
